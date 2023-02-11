@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: lalal
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: macrl.png
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+A set of practical tools to build decision making
+procedures for machines interacting with the world. Our applications vary from video games and web-search to robot manipulation and 
+self-driving vehicles. Our focus is on intuition and informal mathematical argument to build that intuition, and on 
+techniques we've seen work multiple times on hard decision making problems. We try to outline the techniques and ways of
+thinking we'd be most likely to pull out in practice. Throughout, we attempt to point to rigorous derivations and the 
+original literature on the topics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Current draft of the book: <a href="{{ 'macrl.pdf' | prepend: 'assets/pdf/' | relative_url}}" target="_blank">PDF</a>
