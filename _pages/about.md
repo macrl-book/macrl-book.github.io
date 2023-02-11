@@ -1,25 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: lalal
+subtitle: <span style="font-family:Courier New; font-size:1em;">sanjibanc at cornell dot edu</span>
 
 profile:
   align: right
-  image: macrl.png
-  image_circular: false # crops the image to make it circular
-  address: 
+  image: prof_pic.jpg
+  address: >
+    <p>Assistant Professor</p>
+    <p><a href="https://www.cs.cornell.edu/">Cornell Computer Science</a></p>
 
 news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-A set of practical tools to build decision making
-procedures for machines interacting with the world. Our applications vary from video games and web-search to robot manipulation and 
-self-driving vehicles. Our focus is on intuition and informal mathematical argument to build that intuition, and on 
-techniques we've seen work multiple times on hard decision making problems. We try to outline the techniques and ways of
-thinking we'd be most likely to pull out in practice. Throughout, we attempt to point to rigorous derivations and the 
-original literature on the topics.
+I am an Assistant Professor at Cornell Computer Science where I lead the [People and Robot Teaching and Learning (PoRTaL)](https://portal.cs.cornell.edu/) group. 
 
-Current draft of the book: <a href="{{ 'macrl.pdf' | prepend: 'assets/pdf/' | relative_url}}" target="_blank">PDF</a>
+My research aims to build robots that work seamlessly alongside human partners in the wild. To this end, my work focuses on imitation learning, decision making and human robot interaction. I am interested in domains where a robot continually interacts with humans such as collaborative mobile manipulation and self-driving.  
+
+I work part-time at [Aurora](https://aurora.tech/), where we use machine learning to enable safe, human-like driving. I did my Postdoc at [University of Washington](https://www.cs.washington.edu/) and Ph.D. in Robotics at [Carnegie Mellon University](http://www.cs.cmu.edu/). 
+Much of my research has been deployed on real-world robot systems &mdash; [full-scale helicopters](https://www.onr.navy.mil/en/Media-Center/Press-Releases/2018/AACUS--Robert-Collier-Trophy), [self-driving cars](https://youtu.be/99kN1SVqjjA), and [mobile manipulators](https://www.economist.com/science-and-technology/2019/09/26/robots-abilities-to-recognise-and-manipulate-things-are-improving).
+
+Propsective students and undergraduate researchers [see this note](/working_with_us/). 
