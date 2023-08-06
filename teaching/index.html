@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MACRL   | blog</title>
+    <title>MACRL   | Teaching</title>
     <meta name="author" content="MACRL  " />
     <meta name="description" content="Modern Adaptive Control and Reinforcement Learning.
 " />
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://macrl.github.io/blog/">
+    <link rel="canonical" href="https://macrl.github.io/teaching/">
     
     <!-- Dark Mode -->
     
@@ -78,13 +78,13 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/code/">Code</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">Teaching</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/teaching/">Teaching<span class="sr-only">(current)</span></a>
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -97,204 +97,90 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Teaching</h1>
+            <p class="post-description"></p>
+          </header>
+
+          <article>
+            <p>MACRL is used by a number of courses in Cornell, UW and CMU. Some of the recent ones are below:</p>
+
+<h2 id="cs-6756-learning-for-robot-decision-making-fall-2023">CS 6756: Learning for Robot Decision Making (Fall 2023)</h2>
+<p><a href="https://www.cs.cornell.edu/courses/cs6756/2023fa/" target="_blank" rel="noopener noreferrer">https://www.cs.cornell.edu/courses/cs6756/2023fa/</a></p>
+
+<p>Machine learning has made significant advances in many AI applications from language (e.g. ChatGPT) to vision (e.g. Diffusion models). However, it has fallen short when it comes to making decisions, especially for robots interacting within the physical world. Robot decision making presents a unique set of challenges - complexities of the real world, limited labelled data, hard physics constraints, safety aspects when interacting with humans, and more. This graduate-level course dives deep into these issues, beginning with the basics and traversing through the frontiers of robot learning. We look at:</p>
+<ol>
+  <li>
+<strong>Planning</strong> in continuous state-action spaces over long-horizons with hard physical constraints.</li>
+  <li>
+<strong>Imitation learning</strong> from various modes of interaction (demonstrations, interventions) as a unified, game-theoretic framework.</li>
+  <li>
+<strong>Practical reinforcement learning</strong> that leverages both model predictive control and model-free methods.</li>
+  <li>
+<strong>Frontiers</strong> such as offline reinforcement learning, LLMs, diffusion policies and causal confounds.</li>
+</ol>
+
+<p><img src="../assets/img/teaching/l4rd_fa23.png" style="width:100%;" alt="l4rd"></p>
+
+<p><br></p>
+<hr>
+
+<h2 id="cs-4756-robot-learning-spring-2023">CS 4756: Robot Learning (Spring 2023)</h2>
+<p><a href="https://www.cs.cornell.edu/courses/cs4756/2023sp/" target="_blank" rel="noopener noreferrer">https://www.cs.cornell.edu/courses/cs4756/2023sp/</a></p>
+
+<p>Advances in machine learning have proved critical for robots that continually interact with humans and their environments. Robots must solve the problem of both perception and decision making, i.e., sense the world using different modalities and act in the world by reasoning over decisions and their consequences. Learning plays a key role in how we model both sensing and acting. This course covers various modern robot learning concepts and how to apply them to solve real-world problems. We look at:</p>
+<ol>
+  <li>
+<strong>Learning perception models</strong> using probabilistic inference and 2D/3D deep learning.</li>
+  <li>
+<strong>Imitation and interactive no-regret learning</strong> that handle distribution shifts, exploration/exploitation.</li>
+  <li>
+<strong>Practical reinforcement learning</strong> leveraging both model predictive control and model-free methods.</li>
+  <li>
+<strong>Open challenges</strong> in visuomotor skill learning, forecasting and offline reinforcement learning.</li>
+</ol>
+
+<p><img src="../assets/img/teaching/robot_learning.png" style="width:100%;" alt="l4rd"></p>
+
+<p><br></p>
+<hr>
+
+<h2 id="cs-6756-learning-for-robot-decision-making-fall-2022">CS 6756: Learning for Robot Decision Making (Fall 2022)</h2>
+<p><a href="https://www.cs.cornell.edu/courses/cs6756/2022fa/" target="_blank" rel="noopener noreferrer">https://www.cs.cornell.edu/courses/cs6756/2022fa/</a></p>
+
+<p>Advances in machine learning have fueled progress towards deploying real-world robots from assembly lines to self-driving. Learning to make better decisions for robots presents a unique set of challenges. Robots must be safe, learn online from interactions with the environment, and predict the intent of their human partners. This graduate-level course dives deep into the various paradigms for robot learning and decision making. We look at:</p>
+<ol>
+  <li>
+<strong>Interactive no-regret learning</strong> as a fundamental framework for handling distribution shifts, hedging, exploration/exploitation.</li>
+  <li>
+<strong>Imitation learning</strong> from various modes of interaction (demonstrations, interventions) as a unified, game-theoretic framework.</li>
+  <li>
+<strong>Practical reinforcement learning</strong> that leverages both model predictive control and model-free methods.</li>
+  <li>
+<strong>Open challenges</strong> in safety, causal confounds and offline learning.</li>
+</ol>
+
+<p>This course focuses on algorithms, lessons from real world robotics and features a strong programming component.</p>
+
+<p><img src="../assets/img/teaching/l4rd_fa22.png" style="width:100%;" alt="l4rd"></p>
+
+<p><br></p>
+<hr>
 
 
-  <ul class="post-list">
-    
+          </article>
 
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          
-            <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-          
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/diagrams/">a post with diagrams</a>
-        
-      </h3>
-      <p>an example of a blog post with diagrams</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta">
-        7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a>
-        
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/twitter/">a post with twitter</a>
-        
-      </h3>
-      <p>an example of a blog post with twitter</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 MACRL  . Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+        © Copyright 2023 MACRL  . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
 
       </div>
     </footer>
