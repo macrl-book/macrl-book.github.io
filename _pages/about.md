@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: macrl.jpg
-  address:
+  address: generated w/ stable diffusion
 
 news: true  # includes a list of news items
 selected_papers: false 
